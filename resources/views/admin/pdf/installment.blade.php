@@ -121,20 +121,35 @@
             <table width="100%">
             <tr>
                 <td>
+                @php
+            $grandTotal = 0;
+        @endphp
+
+        @foreach ($order->products as $product)
+            @php
+                $price = $product->price;
+                $count = $product->pivot->count;
+                $total = $price * $count;
+                $grandTotal += $total;
+            @endphp
+
+        @endforeach
                 <div style="direction: rtl;">
                                     <p style="font-size: 15px; margin:10px">
                                         <span  >التاريخ: </span> <strong style="font-weight: bold;font-size: 16px;"> {{\Carbon\Carbon::create($order->created_at)->locale("ar_SA")->translatedFormat("d/m/Y")}}</strong> 
                                         <br>
-                                        نعم انا السيد / <strong style="font-weight: bold;font-size: 16px;">${body.name}</strong>  برقم جوال <strong style="font-weight: bold;font-size: 16px;">${body.phone}</strong>
-                                        و عنوان /: <strong>${body.address} / ${body.address2}</strong>
+                                        نعم انا السيد / <strong style="font-weight: bold;font-size: 16px;">{{$order->full_name}}</strong>  برقم جوال <strong style="font-weight: bold;font-size: 16px;">{{$order->phone}}</strong>
+                                        و عنوان /: <strong>{{$order->area . ' ' . $order->street}}</strong>
                                         </p>
                                         <br>
                                     <p style="font-size: 15px; margin:10px">
                                         أقر واعترف وانا في حالتي الشرعية وبكامل قواي العقلية بأني في ذمتي للمؤسسة المدعوة /: حاسبات العرب
-                                        مبلغ وقدره /: <strong style="font-weight: bold; font-size: 16px;"> ${body.price - 1000} </strong>  ريال فقط.
-                                        وذلك قيمة عن ما تبقى من ثمن جهاز /: ${body.note} - ${body.color ? body.color : ""}  
+                                        مبلغ وقدره /: <strong style="font-weight: bold; font-size: 16px;"> {{$grandTotal}} </strong>  ريال فقط.
+                                        وذلك قيمة عن ما تبقى من ثمن جهاز /: @foreach($order->products as $key => $product)
+                                        <span style="font-weight: bold;">{{$key+1}}- {{$product->name}}</span>
+                                        @endforeach  
                                         على ان يدفع المبلغ على اقساط شهرية متتالية ومستمرة بدون انقطاع بما فيها شهر رمضان و الاعياد 
-                                        قيمة الدفعة الشهرية /: <strong style="font-weight: bold; font-size: 16px;"> ${body.monthy} </strong> ريال فقط اعتبارا من تاريخ /: <strong> ${today.toISOString().split('T')[0]}</strong>
+                                        قيمة الدفعة الشهرية /: <strong style="font-weight: bold; font-size: 16px;"> {{$order->monthly_installment}} </strong> ريال فقط اعتبارا من تاريخ /: <strong> {{\Carbon\Carbon::create($order->created_at)->addMonth()->locale("ar_SA")->translatedFormat("d/m/Y")}}</strong>
                                         نهاية المبلغ المذكور اعلاه وأنني بسداد الاقساط في موعدها بدون تأخر عن أي قسط عن موعده المحدد فإني ملتزم التزاما
                                         تاما بسداد المبلغ المتبقي كاملا دفعة واحدة.
                                         كما انني أقر على نفسي بأنه لا يوجد التزامات مالية ولا كفالات غرامية وقد اذنت والله خير الشاهدين.
