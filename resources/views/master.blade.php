@@ -162,7 +162,7 @@
 
     @yield('content')
     <!-- /card 1 -->
-    <a href="https://wa.me/966598692675" class="contact py-2 px-3 bg-success rounded-circle">
+    <a href="https://wa.me/9660591829672" class="contact py-2 px-3 bg-success rounded-circle">
         <i class="fab fa-whatsapp text-white my-1 fa-2x"></i>
     </a>
 </main>
