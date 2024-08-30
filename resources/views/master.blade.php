@@ -196,22 +196,22 @@
                 <div class="w-100">
                     <h5 class="pb-3 text-center mb-3" style="color: #00395e;">من نحن</h5>
                     <p class="text-center text-secondary px-5" style="font-size: 12px;">
-                        يفخر متجر دليل ستور بأنه علامة تجارية سعودية متخصصة في بيع كل ما هو جديد في عالم التقنية وملحقاتها فحرصًا منا لرضاء عملائنا نسعى جاهدين لتوفير منتجات بأسعار تنافسية . السوق كله في بيتك
+                        يفخر متجر الوجيه للإتصالات بأنه علامة تجارية سعودية متخصصة في بيع كل ما هو جديد في عالم التقنية وملحقاتها فحرصًا منا لرضاء عملائنا نسعى جاهدين لتوفير منتجات بأسعار تنافسية . السوق كله في بيتك
                     </p>
                     <div class="container text-center mb-3 d-flex justify-content-center">
-                        <a href="https://wa.me/966598692675" class="text-decoration-none">
+                        <a href="https://wa.me/9660591829672" class="text-decoration-none">
                             <div class="text-dark px-2 rounded" style="background-color: #ECEDEF;">
                                 <i class="fab fa-whatsapp fa-fw fs-5 mt-2"></i>
                                 <p class="pb-2" style="font-size: 12px;">واتساب</p>
                             </div>
                         </a>
-                        <a href="https://wa.me/966598692675" class="text-decoration-none mx-2">
+                        <a href="https://wa.me/9660591829672" class="text-decoration-none mx-2">
                             <div class="text-dark px-3 rounded" style="background-color: #ECEDEF;">
                                 <i class="fas fa-mobile-screen fa-fw fs-5 mt-2"></i>
                                 <p class="pb-2" style="font-size: 12px;">جوال</p>
                             </div>
                         </a>
-                        <a href="mailto:dalelstore@gamil.com" class="text-decoration-none">
+                        <a href="mailto:weg_tele2@gmail.com" class="text-decoration-none">
                             <div class="text-dark px-3 rounded" style="background-color: #ECEDEF;">
                                 <i class="fas fa-envelope fa-fw fs-5 mt-2"></i>
                                 <p class="pb-2" style="font-size: 12px;">إيميل</p>
@@ -278,7 +278,7 @@
         <div class="container-fluid text-white py-3 px-3" style="font-size: 14px;">
             <div class="row  align-items-center">
                 <div class="col-md-6 col-12 text-center text-dark mb-3">
-                    Copyright 2024 | DALEEL STORE </div>
+                    Copyright 2024 | WAJEEH TELE </div>
                 <div class="col-md-6 col-12 text-center mb-3">
                         <span class="me-1">
                         <img src="{{asset('assets/image/icons/mada.webp')}}" width="35" alt="">
