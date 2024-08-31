@@ -6,15 +6,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="generator" content="Odoo">
-    <meta name="facebook-domain-verification" content="b5l8edofe72hrd12a9tnexduz31hbm">
     <meta name="description" content="علامة تجارية سعودية متخصصة في بيع كل ما هو جديد في عالم التقنية 324564669288 whats: متعة التسوق والطلب عبر الموقع الالكتروني ">
     <meta name="keywords" content="a store, astore, astore, electronic store">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="DALEEL STORE | Online Shopping | DALEEL STORE">
-    <meta property="og:site_name" content="DALEEL STORE">
+    <meta property="og:title" content="ALWAJEEH TELE STORE | Online Shopping | ALWAJEEH TELE STORE">
+    <meta property="og:site_name" content="ALWAJEEH TELE STORE">
     <meta property="og:description" content="علامة تجارية سعودية متخصصة في بيع كل ما هو جديد في عالم التقنية 324564669288 whats: متعة التسوق والطلب عبر الموقع الالكتروني ">
-    <meta property="og:image" content="{{asset('uploads/125880420_8054567753_3398744478_taroisa.png')}}" />
+    <meta property="og:image" content="{{asset('uploads/logo-master.jpeg')}}" />
 
     <title>الوجيه للإتصالات</title>
 
@@ -25,7 +23,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
 
-    <link rel="icon" type="image/x-icon" class="w-100" href="{{asset('uploads/125880420_8054567753_3398744478_taroisa.png')}}">
+    <link rel="icon" type="image/x-icon" class="w-100" href="{{asset('uploads/logo-master.jpeg')}}">
     <link rel="stylesheet" href="{{asset('ajax/libs/slick-carousel/1.8.1/slick.min.css')}}" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{asset('ajax/libs/slick-carousel/1.8.1/slick-theme.css')}}" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{asset('assets/css/all.css')}}" />

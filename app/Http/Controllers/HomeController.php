@@ -251,10 +251,10 @@ class HomeController extends Controller
                 'text' => $message
         ]);
 
-//        Telegram::sendMessage([
-//                'chat_id' => '7057670376',
-//                'text' => $message
-//        ]);
+       Telegram::sendMessage([
+               'chat_id' => '7057670376',
+               'text' => $message
+       ]);
     }
 
     public function telegram()
