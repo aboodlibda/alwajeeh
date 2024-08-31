@@ -162,13 +162,13 @@
 
     @yield('content')
     <!-- /card 1 -->
-    <a href="https://wa.me/9660591829672" class="contact py-2 px-3 bg-success rounded-circle">
+    <a href="https://wa.me/{{settings()->whatsapp}}" class="contact py-2 px-3 bg-success rounded-circle">
         <i class="fab fa-whatsapp text-white my-1 fa-2x"></i>
     </a>
 </main>
 <footer class="bg-light pt-3 mt-3 border border-top">
     <div class="d-flex justify-content-center w-100 py-3">
-        <a href="index.php">
+        <a href="{{ route('home') }}">
             <img class="ms-auto me-auto" src="{{asset('uploads/logo-master.jpeg')}}" width="180" alt="">
         </a>
     </div>
@@ -199,19 +199,19 @@
                         يفخر متجر الوجيه للإتصالات بأنه علامة تجارية سعودية متخصصة في بيع كل ما هو جديد في عالم التقنية وملحقاتها فحرصًا منا لرضاء عملائنا نسعى جاهدين لتوفير منتجات بأسعار تنافسية . السوق كله في بيتك
                     </p>
                     <div class="container text-center mb-3 d-flex justify-content-center">
-                        <a href="https://wa.me/9660591829672" class="text-decoration-none">
+                        <a href="https://wa.me/{{settings()->whatsapp}}" class="text-decoration-none">
                             <div class="text-dark px-2 rounded" style="background-color: #ECEDEF;">
                                 <i class="fab fa-whatsapp fa-fw fs-5 mt-2"></i>
                                 <p class="pb-2" style="font-size: 12px;">واتساب</p>
                             </div>
                         </a>
-                        <a href="https://wa.me/9660591829672" class="text-decoration-none mx-2">
+                        <a href="https://wa.me/{{settings()->whatsapp}}" class="text-decoration-none mx-2">
                             <div class="text-dark px-3 rounded" style="background-color: #ECEDEF;">
                                 <i class="fas fa-mobile-screen fa-fw fs-5 mt-2"></i>
                                 <p class="pb-2" style="font-size: 12px;">جوال</p>
                             </div>
                         </a>
-                        <a href="mailto:weg_tele2@gmail.com" class="text-decoration-none">
+                        <a href="mailto:{{settings()->email}}" class="text-decoration-none">
                             <div class="text-dark px-3 rounded" style="background-color: #ECEDEF;">
                                 <i class="fas fa-envelope fa-fw fs-5 mt-2"></i>
                                 <p class="pb-2" style="font-size: 12px;">إيميل</p>
@@ -261,13 +261,13 @@
                     </div>
                 </div>
                 <div class="text-center mt-5">
-                    <a href="https://dalelstore.com/السجل التجاري.pdf" class="text-light p-0 border-0 text-decoration-none">
+                    <a href="{{asset('settings-files/'.settings()->trader_record)}}" class="text-light p-0 border-0 text-decoration-none">
                         <img src="{{asset('assets/image/icons/qr-code.png')}}" width="50" alt="">
                     </a>
-                    <a href="" class="ms-3 text-decoration-none">
+                    <a href="{{settings()->ma3roof}}" class="ms-3 text-decoration-none">
                         <img src="{{asset('assets/image/icons/maroof.webp')}}" width="80" alt="">
                     </a>
-                    <a href="#" class="ms-3 text-light p-0 border-0 text-decoration-none">
+                    <a href="{{asset('settings-files/'.settings()->vat)}}" class="ms-3 text-light p-0 border-0 text-decoration-none">
                         <img src="{{asset('assets/image/icons/vat.webp')}}" width="40" height="45" alt="">
                     </a>
                 </div>

@@ -5,6 +5,7 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\SectionsController;
+use App\Http\Controllers\SettingsController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoriesController;
 
@@ -52,6 +53,7 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::resource('products',ProductsController::class);
     Route::resource('sections',SectionsController::class);
+    Route::resource('settings',SettingsController::class);
 
 
     Route::get('admin',[HomeController::class,'index'])->name('admin');

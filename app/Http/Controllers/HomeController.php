@@ -244,8 +244,6 @@ class HomeController extends Controller
 
 
 
-
-
     public function send_telegram($message)
     {
         Telegram::sendMessage([

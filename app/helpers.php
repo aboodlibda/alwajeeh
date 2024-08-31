@@ -13,4 +13,10 @@ if (!function_exists('cartItemCount')) {
         $cart = Session::get('cart', []);
         return count($cart);
     }
+
+    function settings()
+    {
+        $setting = \App\Models\Setting::query()->first();
+        return $setting;
+    }
 }

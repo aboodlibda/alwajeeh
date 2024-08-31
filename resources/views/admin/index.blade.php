@@ -32,7 +32,7 @@
                 <div class="row g-5 g-xl-8">
                     <div class="col-xl-4">
                         <!--begin::Statistics Widget 5-->
-                        <a href="" class="card bg-black hoverable card-xl-stretch mb-5 mb-xl-8">
+                        <a href="{{ route('categories.index') }}" class="card bg-black hoverable card-xl-stretch mb-5 mb-xl-8">
                             <!--begin::Body-->
                             <div class="card-body">
                                 <!--begin::Svg Icon | path: icons/duotone/Shopping/Chart-bar1.svg-->
@@ -51,7 +51,7 @@
 {{--                                       <div class="text-inverse-warning fw-bolder fs-1  mt-5">64</div>--}}
 												</span>
                                 <!--end::Svg Icon-->
-                                <div class="text-inverse-success fw-bolder fs-2 mb-2 mt-5">التذاكر</div>
+                                <div class="text-inverse-success fw-bolder fs-2 mb-2 mt-5">التنصيفات</div>
                                 {{--                                <div class="fw-bold text-inverse-success fs-7">عدد الطلبات على المتجات</div>--}}
                             </div>
                             <!--end::Body-->

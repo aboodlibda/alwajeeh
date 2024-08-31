@@ -23,8 +23,7 @@
                         </p>
                     </div>
                     <div class="text-center mt-2 mb-4">
-                        <p class="fs-6 text-secondary">IBANPAL1684351645614651531</p>
-                        <p class="fs-6 text-secondary">RAJSAR54518616546515686651</p>
+                        <p class="fs-6 text-secondary">{{settings()->bank_account}}</p>
                     </div>
                     <div class="text-center my-4">
                         <p class="fs-6 text-secondary" style="    color: #f00 !important;">
@@ -42,7 +41,7 @@
                         </p>
                     </div>
                     <div class="text-center my-3">
-                        <a href="https://wa.me/9660591829672" class="btn btn-outline-success w-100">
+                        <a href="https://wa.me/{{settings()->whatsapp}}" class="btn btn-outline-success w-100">
                             <i class="fas fa-headset fa-fw"></i>
                             خدمة العملاء
                         </a>
