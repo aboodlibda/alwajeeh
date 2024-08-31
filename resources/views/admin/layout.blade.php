@@ -50,7 +50,7 @@
     <!--begin::Page-->
     <div class="page d-flex flex-row flex-column-fluid">
         <!--begin::Aside-->
-        <div id="kt_aside" class="aside aside-dark aside-hoverable" data-kt-drawer="true" data-kt-drawer-name="aside"
+        <div id="kt_aside" class="aside aside-light aside-hoverable" data-kt-drawer="true" data-kt-drawer-name="aside"
              data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true"
              data-kt-drawer-width="{default:'200px', '300px': '250px'}" data-kt-drawer-direction="start"
              data-kt-drawer-toggle="#kt_aside_mobile_toggle">
@@ -58,7 +58,7 @@
             <div class="aside-logo flex-column-auto" id="kt_aside_logo">
                 <!--begin::Logo-->
                 <a href="{{ route('admin') }}">
-                                                            <img alt="Logo" src="{{asset('https://images.ctfassets.net/vy53kjqs34an/3zOlXwzG8mnkgOFKwogIjR/12f91cfef6a36c3e280b19e755b4dc43/logo-new.svg')}}" class="h-40px logo"/>
+                                                            <img alt="Logo" src="{{asset('uploads/logo-master.jpg')}}" class="h-40px logo"/>
                 </a>
                 <!--end::Logo-->
                 <!--begin::Aside toggler-->
@@ -355,7 +355,7 @@
                     <!--begin::Mobile logo-->
                     <div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
                         <a href="" class="d-lg-none">
-                            <img alt="Logo" src="{{asset('admin-assets/assets/media/logos/logo-1.svg')}}" class="h-30px"/>
+                            <img alt="Logo" src="{{asset('uploads/logo-master.jpg')}}" class="h-30px"/>
                         </a>
                     </div>
                     <!--end::Mobile logo-->
@@ -387,7 +387,7 @@
                                 <div class="cursor-pointer symbol symbol-80px symbol-md-80px"
                                      data-kt-menu-trigger="click" data-kt-menu-attach="parent"
                                      data-kt-menu-placement="bottom-end" data-kt-menu-flip="bottom">
-                                        <img src="https://images.ctfassets.net/vy53kjqs34an/eXew8vB8pyCzk1szp26Kk/4917173fb0b2aabd0575c48585b1a3ed/Esports-Logo-animation-high-res-12-sec_2GIF.gif"
+                                        <img src="{{assets('uploads/logo-master.jpg')}}"
                                              alt="الصورة الشخصية" style="object-fit: cover"/>
 
                                 </div>
@@ -400,7 +400,7 @@
                                         <div class="menu-content d-flex align-items-center px-3">
                                             <!--begin::Avatar-->
                                             <div class="symbol symbol-50px me-5">
-                                                    <img src="https://images.ctfassets.net/vy53kjqs34an/eXew8vB8pyCzk1szp26Kk/4917173fb0b2aabd0575c48585b1a3ed/Esports-Logo-animation-high-res-12-sec_2GIF.gif"
+                                                    <img src="{{assets('uploads/logo-master.jpg')}}"
                                                          alt="الصورة الشخصية" style="object-fit: cover"/>
 
                                             </div>
