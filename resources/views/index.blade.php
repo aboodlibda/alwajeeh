@@ -50,7 +50,7 @@
     </div>
 
     @php
-        $sections = \App\Models\Section::query()->get();
+        $sections = \App\Models\Section::query()->latest()->get();
     @endphp
 
         <section class="container mt-2 mb-3">
