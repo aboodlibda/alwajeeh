@@ -58,7 +58,7 @@
             <div class="aside-logo flex-column-auto" id="kt_aside_logo">
                 <!--begin::Logo-->
                 <a href="{{ route('admin') }}">
-                                                            <img alt="Logo" src="{{asset('uploads/logo-master.jpg')}}" class="h-40px logo"/>
+                                                            <img alt="Logo" src="{{asset('uploads/logo-master.jpeg')}}" class="h-40px logo"/>
                 </a>
                 <!--end::Logo-->
                 <!--begin::Aside toggler-->
@@ -355,7 +355,7 @@
                     <!--begin::Mobile logo-->
                     <div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
                         <a href="" class="d-lg-none">
-                            <img alt="Logo" src="{{asset('uploads/logo-master.jpg')}}" class="h-30px"/>
+                            <img alt="Logo" src="{{asset('uploads/logo-master.jpeg')}}" class="h-30px"/>
                         </a>
                     </div>
                     <!--end::Mobile logo-->
