@@ -387,7 +387,7 @@
                                 <div class="cursor-pointer symbol symbol-80px symbol-md-80px"
                                      data-kt-menu-trigger="click" data-kt-menu-attach="parent"
                                      data-kt-menu-placement="bottom-end" data-kt-menu-flip="bottom">
-                                        <img src="{{assets('uploads/logo-master.jpg')}}"
+                                        <img src="{{asset('uploads/logo-master.jpg')}}"
                                              alt="الصورة الشخصية" style="object-fit: cover"/>
 
                                 </div>
@@ -400,7 +400,7 @@
                                         <div class="menu-content d-flex align-items-center px-3">
                                             <!--begin::Avatar-->
                                             <div class="symbol symbol-50px me-5">
-                                                    <img src="{{assets('uploads/logo-master.jpg')}}"
+                                                    <img src="{{asset('uploads/logo-master.jpg')}}"
                                                          alt="الصورة الشخصية" style="object-fit: cover"/>
 
                                             </div>
