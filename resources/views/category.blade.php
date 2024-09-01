@@ -16,7 +16,7 @@
             <!-- itmes -->
             <div class="container">
                 <div class="row">
-                    @foreach($category->products as $product)
+                    @foreach($products as $product)
                         <div class="col-md-3 col-6 mb-2">
                             <a href="{{ route('view-product' , $product->id) }}" class="text-decoration-none">
                                 <div class="product">

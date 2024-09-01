@@ -34,7 +34,9 @@ class HomeController extends Controller
     public function view_category($id)
     {
         $category = Category::query()->with('products')->findOrFail($id);
-        return view('category',compact('category'));
+        $products = Products::query()->where('category_id',$id);
+
+        return view('category',compact('category','products'));
     }
 
     public function order(Request $request)
