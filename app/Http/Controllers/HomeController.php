@@ -34,7 +34,7 @@ class HomeController extends Controller
     public function view_category($id)
     {
         $category = Category::query()->with('products')->findOrFail($id);
-        $products = Product::query()->where('category_id',$id);
+        $products = Product::query()->where('category_id',$id)->get();
 
         return view('category',compact('category','products'));
     }
