@@ -143,7 +143,7 @@
                                         </p>
                                         <br>
                                     <p style="font-size: 15px; margin:10px">
-                                        أقر واعترف وانا في حالتي الشرعية وبكامل قواي العقلية بأني في ذمتي للمؤسسة المدعوة /: حاسبات العرب
+                                        أقر واعترف وانا في حالتي الشرعية وبكامل قواي العقلية بأني في ذمتي للمؤسسة المدعوة /: الوجيه للإتصالات
                                         مبلغ وقدره /: <strong style="font-weight: bold; font-size: 16px;"> {{$grandTotal}} </strong>  ريال فقط.
                                         وذلك قيمة عن ما تبقى من ثمن جهاز /: @foreach($order->products as $key => $product)
                                         <span style="font-weight: bold;">{{$key+1}}- {{$product->name}}</span>
