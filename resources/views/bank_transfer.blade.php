@@ -23,7 +23,7 @@
                         </p>
                     </div>
                     <div class="text-center mt-2 mb-4">
-                        <p class="fs-6 text-secondary">{{settings()->bank_account}}</p>
+                        <p class="fs-6 text-dark"><strong style="font-size:20px;">{{settings()->bank_account}}</strong></p>
                     </div>
                     <div class="text-center my-4">
                         <p class="fs-6 text-secondary" style="    color: #f00 !important;">

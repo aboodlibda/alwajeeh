@@ -283,7 +283,7 @@ class HomeController extends Controller
         $order_id = Session::get('order_id',[]);
         $order = Order::query()->findOrFail($order_id)->update(['payment_method' => 'bank']);
         Session::forget('must_paid');
-        Session::forget('order_id');
+        // Session::forget('order_id');
         Session::forget('cart');
         return view('bank_transfer');
     }

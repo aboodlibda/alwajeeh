@@ -94,7 +94,8 @@
                                     <input type="hidden" name="total_price" autocomplete="off" value="{{$total}}" id="total_price">
                                     <select class="form-select form-select-lg mb-3 rounded py-3" id="payment" name="payment" aria-label=".form-select-lg example" style="font-size: 17px;" maxlength="4">
                                         <option value="2200" selected="" disabled="">اختر الدفعة الاولى</option>
-                                        <option value="1000" selected="">1000 ر.س</option>
+                                        <option value="500" selected="">500 ر.س</option>
+                                        <option value="1000">1000 ر.س</option>
                                         <option value="1500">1500 ر.س</option>
                                         <option value="2000">2000 ر.س</option>
                                     </select>
