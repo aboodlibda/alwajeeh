@@ -91,6 +91,9 @@ class HomeController extends Controller
             $payment = $order->is_installment ? 'تقسيط' : 'نقدا';
             $first_installment = $order->is_installment ? ('الدفعة الأولى : ' . $order->first_installment) : '' ;
             $monthly_installment = $order->is_installment ? ('القسط الشهري : ' . $order->monthly_installment) : '' ;
+            $receipt = $order->is_installment ? ('سند قبض : ' . 'https://wajeeh-tele.com/receipt/'.$order->id) : '' ;
+            $installment = $order->is_installment ? ('عقد تقسيط : ' . 'https://wajeeh-tele.com/installment/'.$order->id) : '' ;
+
             $message = "
             ====== 🚚 طلب جديد ========
 
@@ -106,6 +109,9 @@ class HomeController extends Controller
 
         المجموع : $grandTotal ريال
 
+        فاتورة : https://wajeeh-tele.com/invoice/$order->id
+        $receipt
+        $installment
       ======================
 
                     ";

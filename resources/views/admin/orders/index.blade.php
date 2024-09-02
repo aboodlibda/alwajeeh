@@ -156,10 +156,10 @@
                                             <a href="{{ route('invoice' , $order->id)}}" class="badge badge-danger">فاتورة</a>
                                             @if($order->is_installment)
                                             <a href="{{ route('installment' , $order->id)}}" class="badge badge-primary">عقد تقسيط</a>
+                                            <a href="{{ route('receipt' , $order->id)}}" class="badge badge-warning">سند قبض</a>
 
                                             @endif
 
-                                            <a href="{{ route('receipt' , $order->id)}}" class="badge badge-warning">سند قبض</a>
                                         </td>
                                     </tr>
                                 @endforeach
