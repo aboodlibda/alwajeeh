@@ -8,12 +8,12 @@
         <div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel">
             <div class="carousel-inner pt-md-5 pt-3">
                 <div class="carousel-item active">
-                    <img src="{{asset('uploads/6695266540_15.jpg')}}" class="d-block w-100 d-block d-md-none" height="200" alt="..." >
-                    <img src="{{asset('uploads/6695266540_15.jpg')}}" class="d-block w-100 d-none d-md-block" height="400" alt="..." style="object-fit: cover">
+                    <img src="{{asset('uploads/WhatsApp Image 2024-09-13 at 13.28.30.jpeg')}}" class="d-block w-100 d-block d-md-none" height="200" alt="..." >
+                    <img src="{{asset('uploads/WhatsApp Image 2024-09-13 at 13.28.30.jpeg')}}" class="d-block w-100 d-none d-md-block" height="400" alt="..." style="object-fit: cover">
                 </div>
                 <div class="carousel-item ">
-                    <img src="{{asset('uploads/3492175934_IMG-20230913-WA0071.jpg')}}" class="d-block w-100 d-block d-md-none" height="200" alt="...">
-                    <img src="{{asset('uploads/3492175934_IMG-20230913-WA0071.jpg')}}" class="d-block w-100 d-none d-md-block" height="400" alt="..." style="object-fit: cover">
+                    <img src="{{asset('uploads/WhatsApp Image 2024-09-13 at 13.28.30(1).jpeg')}}" class="d-block w-100 d-block d-md-none" height="200" alt="...">
+                    <img src="{{asset('uploads/WhatsApp Image 2024-09-13 at 13.28.30(1).jpeg')}}" class="d-block w-100 d-none d-md-block" height="400" alt="..." style="object-fit: cover">
                 </div>
                 <div class="carousel-item ">
                     <img src="{{asset('uploads/1646985559_2.jpg')}}" class="d-block w-100 d-block d-md-none" height="200" alt="...">
